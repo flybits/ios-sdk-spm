@@ -21,9 +21,12 @@ There are 4 libraries:
 
 Here is the table for what are the SDKs inside each Library.
 
-| Core | Location | Concierge | SmartRewards |
-| --- | --- | --- | --- |
-| - FlybitsSDK<br/>- FlybitsPushSDK<br/>- FlybitsKernelSDK<br/>- FlybitsContextSDK | - FlybitsSDK<br/>- FlybitsContextSDK<br>- FlybitsContextLocationPluginSDK | - FlybitsSDK<br/>- FlybitsPushSDK<br/>- FlybitsKernelSDK<br/>- FlybitsContextSDK<br>- FlybitsConciergeSDK | - FlybitsSDK<br/>- FlybitsPushSDK<br/>- FlybitsKernelSDK<br/>- FlybitsContextSDK<br/>- FlybitsConciergeSDK<br/>- FlybitsSmartRewardsSDK |
+| Library | SDK |
+| --- | --- |
+| Core | FlybitsSDK<br/>FlybitsPushSDK<br/>FlybitsKernelSDK<br/>FlybitsContextSDK |
+| Location | FlybitsSDK<br/>FlybitsContextSDK<br>FlybitsContextLocationPluginSDK |
+| Concierge | FlybitsSDK<br/>FlybitsPushSDK<br/>FlybitsKernelSDK<br/>FlybitsContextSDK<br>FlybitsConciergeSDK |
+| SmartRewards | FlybitsSDK<br/>FlybitsPushSDK<br/>FlybitsKernelSDK<br/>FlybitsContextSDK<br/>FlybitsConciergeSDK<br/>FlybitsSmartRewardsSDK |
 
 More Information about SDKs, please check on:
 
