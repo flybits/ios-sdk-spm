@@ -5,17 +5,18 @@ import PackageDescription
 let package = Package(
   name: "Flybits",
   products: [
-    .library(name: "Concierge", targets: ["FlybitsCoreConcierge", "FlybitsSDK", "FlybitsPushSDK", "FlybitsKernelSDK", "FlybitsContextSDK", "FlybitsConcierge"]),
+    .library(name: "Concierge", targets: ["FlybitsSDK", "FlybitsPushSDK", "FlybitsKernelSDK", "FlybitsContextSDK", "FlybitsConciergeSDK"]),
     .library(name: "Location", targets: ["FlybitsSDK", "FlybitsContextSDK", "FlybitsContextLocationPluginSDK"]),
     .library(name: "Core", targets: ["FlybitsSDK", "FlybitsPushSDK", "FlybitsKernelSDK", "FlybitsContextSDK"]),
+    .library(name: "SmartRewards", targets: ["FlybitsSDK", "FlybitsPushSDK", "FlybitsKernelSDK", "FlybitsContextSDK", "FlybitsConciergeSDK", "FlybitsSmartRewardsSDK"]),
   ],
   targets: [
-    .binaryTarget(name: "FlybitsSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/4.1.5-alpha6/FlybitsSDK.xcframework.zip", checksum: "e7a76a0804326cc74573f008e61583afd0da49ee050209e475017db285c1651f"),
-    .binaryTarget(name: "FlybitsPushSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/4.1.5-alpha6/FlybitsPushSDK.xcframework.zip", checksum: "38419164663c9419b8f5ca920ef5942c110803b4ac80c39a080060558b4881d5"),
-    .binaryTarget(name: "FlybitsKernelSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/4.1.5-alpha6/FlybitsKernelSDK.xcframework.zip", checksum: "5c80bd612b3a87b8a40ecb3872f63a23863035f50c39ef178c23e11d2a9d1318"),
-    .binaryTarget(name: "FlybitsContextSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/4.1.5-alpha6/FlybitsContextSDK.xcframework.zip", checksum: "1fe43e2991efcd1278d5ea799630d55789f874393323d8e3bdf5e11eee9cd2d1"),
-    .binaryTarget(name: "FlybitsCoreConcierge", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/4.1.5-alpha6/FlybitsCoreConcierge.xcframework.zip", checksum: "a505379dd6f5b9d49edd322745010d104a6bc459933d45586e121aeb4078a2c1"),
-    .binaryTarget(name: "FlybitsConcierge", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/4.1.5-alpha6/FlybitsConcierge.xcframework.zip", checksum: "4e2331e80cca791465222daf30a0e07b29a646d2be1602885a1b549d38dd5161"),
-    .binaryTarget(name: "FlybitsContextLocationPluginSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/4.1.5-alpha6/FlybitsContextLocationPluginSDK.xcframework.zip", checksum: "ff8490c7437554734366252419f6fbec0fe58c1cb89029dfee0f26276e5629d5"),
+    .binaryTarget(name: "FlybitsSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/3.9.2-alpha2/FlybitsSDK.xcframework.zip", checksum: "fcba26d4224a50f235dc9d9b73bb3a14032172b64cdeb1e4dbe9aaf7d56190f8"),
+    .binaryTarget(name: "FlybitsPushSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/3.9.2-alpha2/FlybitsPushSDK.xcframework.zip", checksum: "ec4eee7d2219b198baefc587509cfe4e98884f2a97c2561e423ff265860a3bb3"),
+    .binaryTarget(name: "FlybitsKernelSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/3.9.2-alpha2/FlybitsKernelSDK.xcframework.zip", checksum: "1a081ae76542f075edecb07f86e06e7d5570339680bf4bab06e6d6d8e79fc473"),
+    .binaryTarget(name: "FlybitsContextSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/3.9.2-alpha2/FlybitsContextSDK.xcframework.zip", checksum: "237967b8a3c746d0fee751e2262f4ed058b9f49cd6434d86eb1a9b8d5f254ef9"),
+    .binaryTarget(name: "FlybitsConciergeSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/3.9.2-alpha2/FlybitsConciergeSDK.xcframework.zip", checksum: "50747c37e7791cf15fa1022be67c05805e46b47fe6b7e4eae29583a416ceb033"),
+    .binaryTarget(name: "FlybitsSmartRewardsSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/3.9.2-alpha2/FlybitsSmartRewardsSDK.xcframework.zip", checksum: "82250e44051d5add8ceda3f0622debf1617013e49e152087fbba6857c4d134ba"),
+    .binaryTarget(name: "FlybitsContextLocationPluginSDK", url: "https://flybits.jfrog.io/artifactory/SPM/Flybits/3.9.2-alpha2/FlybitsContextLocationPluginSDK.xcframework.zip", checksum: "9d45be25358927f0a0bc81ae6a8fca48542d1554cfdfd08e8b6a57460c5d8d7f"),
   ]
 )
