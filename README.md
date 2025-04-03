@@ -1,3 +1,6 @@
+This repository is on deprecated state and its binaries may not work soon. 
+Use the new repository: https://github.com/flybits/ios-sdk-spm-new that is currently working with Flybits binary storage.
+
 # Flybits iOS SDK Swift Package
 
 Install Flybits iOS SDK easily with Swift Package Manager.
