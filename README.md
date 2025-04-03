@@ -8,7 +8,7 @@ Add the URL of this repository to your Xcode Project.
 
 Go to *File* > *Swift Packages* > *Add Package Dependency*, and paste in the link to this repository:
 
-`https://github.com/flybits/ios-sdk-spm.git`
+`https://github.com/flybits/ios-sdk-spm-new.git`
 
 ## Libraries
 
@@ -30,4 +30,4 @@ Here is the table for what are the SDKs inside each Library.
 
 More Information about SDKs, please check on:
 
-[Mobile Cookbook](https://flybits.gitbook.io/flybits-cookbook-3-x-x/-M3mLFD6iXJ1qWhwW-7q/)
+[Mobile Cookbook](https://flybits.gitbook.io/customer-documentation/concierge-sdk/concierge-sdk-home-page)
