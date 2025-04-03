@@ -1,4 +1,5 @@
-This is OLD and it won't work. Use the new repository: https://github.com/flybits/ios-sdk-spm-new that is currently working with Flybits binary storage.
+This repository is on deprecated state and its binaries may not work soon. 
+Use the new repository: https://github.com/flybits/ios-sdk-spm-new that is currently working with Flybits binary storage.
 
 # Flybits iOS SDK Swift Package
 
